@@ -1,0 +1,88 @@
+{
+  "realm" : "eselpo",
+  "users" : [ {
+    "id" : "69d1257f-4b71-46d5-b211-1c77891cf953",
+    "username" : "j.daniels",
+    "firstName" : "Jack",
+    "lastName" : "Daniels",
+    "email" : "j.daniels@example.com",
+    "emailVerified" : true,
+    "createdTimestamp" : 1710012554273,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "2c2085ba-636c-4e5a-a7a1-0f360188645d",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1710187283667,
+      "secretData" : "{\"value\":\"LCaRbQLNkk5e6ehoR7G4mHyQSJK7k1AvQFGkjkYJ0i0cJhECxqIYSbsUC7kz4SUiEFZ73Fbc9ssXYJ5Q2EqX9w==\",\"salt\":\"IRWPP1CP0zJoV5jBLXnl8A==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "ROLE_MANAGER", "default-roles-eselpo" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "bd6e0b32-cacb-4e0f-9ee3-d7f844e4083d",
+    "username" : "service-account-springsecurity",
+    "emailVerified" : false,
+    "createdTimestamp" : 1710015744505,
+    "enabled" : true,
+    "totp" : false,
+    "serviceAccountClientId" : "springsecurity",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-eselpo" ],
+    "clientRoles" : {
+      "springsecurity" : [ "uma_protection" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "4d53af8d-3f44-44d9-a5ef-ec96774d6600",
+    "username" : "system",
+    "firstName" : "Vladislav ",
+    "lastName" : "Kachalov",
+    "email" : "kachalov.vladislav01@mail.ru",
+    "emailVerified" : false,
+    "createdTimestamp" : 1710282792300,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "a9e903ef-4df4-4b52-b741-34744f9463de",
+      "type" : "password",
+      "createdDate" : 1710282792567,
+      "secretData" : "{\"value\":\"zJ6/7kNaUiOf3JIFmZVlbUI14g7l+wgqP/zWksTktgsPelKxfQvwpxYC+/rEsO0KNusrB+OHuu4n1ZcFr1v9UA==\",\"salt\":\"ZUqKbaB6vHBbwcQxhV9X+g==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-eselpo" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "a795a423-6c73-486d-b6f2-63b13b6940ee",
+    "username" : "test2",
+    "firstName" : "Test2",
+    "lastName" : "Test2",
+    "email" : "test2@gmail.com",
+    "emailVerified" : false,
+    "createdTimestamp" : 1711402660787,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "3902093e-5bb1-4687-8e14-39e83c6dd277",
+      "type" : "password",
+      "createdDate" : 1711402661071,
+      "secretData" : "{\"value\":\"aBLVzyy/viqd6tU1+YkJDbEmzhTklhYWRiwoXSdrLkkmyzh1evUFCGOO2mnOPkJbhyY2Yd3m1yWJGJg262/2Pg==\",\"salt\":\"QZCslMLIfwhXGWn/irKXmQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-eselpo" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

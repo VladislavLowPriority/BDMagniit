@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel='stylesheet' href='../css/normalize.css'>
+	<link rel='stylesheet' href='../css/style.css'>
+	<meta charset="UTF-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+
+	<title>Магнит для сотрудников</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+	<link rel="icon" type="image/x-icon" href="/Favicon/favicon.ico">
+	<link rel="manifest" href="/Favicon/site.webmanifest">
+	<link rel="mask-icon" href="/Favicon/safari-pinned-tab.svg" color="#d55b5b">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<script src='/src/main/resources/public/css/style.css' defer></script>
+</head>
+
+<body>
+	<article class="container">
+
+		<!-- Внутренний блок-->
+		<div class="block">
+			<section class="block__item block-item">
+				<h2 class="block-item__title">У вас уже есть аккаунт</h2>
+				<button class="block-item__btn signin-btn">Войти</button>
+			</section>
+			<section class="block__item block-item">
+				<h2 class="block-item__title">У вас нет аккаунта</h2>
+				<button class="block-item__btn signup-btn">Зарегистрироваться</button>
+			</section>
+		</div>
+		</div>
+		<!--Блок формы-->
+		<div class="form-box">
+			<!--Форма входа-->
+			<form action="#" class="form form_signin">
+				<h3 class="form__title">Вход</h3>
+				<p>
+					<input id='login' type="text" class="form__input" placeholder='Логин'>
+				</p>
+				<p>
+					<input id='password' type="password" class="form__input" placeholder='пароль'>
+				</p>
+				<p><button onclick='next_page()' id="formBtn" class="form__btn">Войти</button></p>
+			</form>
+
+
+			<!--Форма регистрации-->
+			<form action="#" class="form form_signup">
+				<h3 class="form__title">Регистрация</h3>
+				<p>
+					<input id='login2' type="text" class="form__input" placeholder='Логин'>
+				</p>
+				<p>
+					<input id='Email' autocomplete="on" type="email" class="form__input" placeholder='Почта'>
+				</p>
+				<p>
+					<input id='password2' type="password" class="form__input" placeholder='Пароль'>
+				</p>
+				<p>
+					<input id='password3' type="password" class="form__input" placeholder='Подтвердите пароль'>
+				</p>
+				<p><button class="form__btn form__btn_signup">Зарегистрироваться</button></p>
+			</form>
+		</div>
+
+
+	</article>
+</body>
+
+</html>

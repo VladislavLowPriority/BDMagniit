@@ -1,0 +1,49 @@
+{
+  "realm" : "master",
+  "users" : [ {
+    "id" : "55e5eca1-c38c-428b-8216-f5d56a076636",
+    "username" : "newuser",
+    "firstName" : "New",
+    "lastName" : "User",
+    "emailVerified" : false,
+    "createdTimestamp" : 1710011231893,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "98ef4643-0ca4-4321-b855-adef9cc3512b",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1710011246235,
+      "secretData" : "{\"value\":\"LMNxtigad3MLd33Qt5yMMXdSWzxz8bR7K/U+se7gBMwEaO80/dMBX/gf6BSzCY0JWqaYshqIesdWE0P1hJ4/4A==\",\"salt\":\"MV+eMlbFolJuK2YeB5iOJQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-master" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "7f0ce25d-00fb-454c-936b-a88b6ea6cdee",
+    "username" : "root",
+    "emailVerified" : false,
+    "createdTimestamp" : 1709986141035,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "78611cae-62eb-4a49-8bd7-daab05c7a70c",
+      "type" : "password",
+      "createdDate" : 1709986141786,
+      "secretData" : "{\"value\":\"xr+ASPj6eELUasgu4Z7upRsBUSqCFykpGHvW/gW9uJF1JvkO54e+s16w5ce8l3hRgQn7JTWbzr4xOFrgYCjkkQ==\",\"salt\":\"Ej6ikv56hZxZdwiSsMC5uw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "admin", "default-roles-master" ],
+    "clientRoles" : {
+      "eselpo-realm" : [ "view-users", "manage-events", "manage-realm", "view-authorization", "manage-users", "manage-clients", "manage-authorization", "query-users", "query-realms", "view-realm", "manage-identity-providers", "query-groups", "view-identity-providers", "query-clients", "create-client", "view-clients", "view-events" ],
+      "MagnitBase-realm-realm" : [ "query-clients", "view-events", "query-users", "view-clients", "query-realms", "query-groups", "view-authorization", "manage-identity-providers", "view-identity-providers", "view-users", "manage-authorization", "manage-realm", "view-realm", "manage-users", "manage-clients", "create-client", "manage-events" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

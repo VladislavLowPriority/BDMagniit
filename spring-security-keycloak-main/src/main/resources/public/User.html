@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel='stylesheet' href='/css/style2.css'>
+	<link rel='stylesheet' href='/css/normalize.css'>
+	<meta charset="UTF-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+
+	<title>Магнит для сотрудников</title>
+
+
+	<!--<script src='./js/LogoutButton.js' defer></script>-->
+
+	<!--<script src='./js/GetAccesToken.js' defer></script>-->
+	<script src='./js/loadUserProfile.js' defer></script>
+
+
+</head>
+
+<body>
+
+	<article class="container2">
+		<div class="form__base-box">
+			<form action="#" class="UserForm">
+				<h3 class="form__title2">Здравствуйте, <span id="userFullName"></span>
+					<p>Укажите актуальные данные</p>
+				</h3>
+				<p>
+					<input id='IdentificationNumber' type="text" class="form__input2" placeholder='Идентификационный номер'>
+				</p>
+				<p>
+					<input id='FullName' type="text" class="form__input2" placeholder='ФИО'>
+				</p>
+				<p>
+					<input id='WorkPhone' type="tel" class="form__input2" placeholder='Номер рабочего телефона сука'>
+				</p>
+				<p>
+					<input id='CellPhone' type="tel" class="form__input2" placeholder='Номер сотового телефона'>
+				</p>
+				<p>
+					<input id='Direction' type="text" class="form__input2" placeholder='Дирекция'>
+				</p>
+				<p>
+					<input id='Department' type="text" class="form__input2" placeholder='Департамент'>
+				</p>
+				<p>
+					<input id='Branch' type="text" class="form__input2" placeholder='Служба/направление/управление'>
+				</p>
+				<p>
+					<input id='Office' type="text" class="form__input2" placeholder='Отдел'>
+				</p>
+				<p>
+					<input id='JobTitle' type="text" class="form__input2" placeholder='Должность'>
+				</p>
+				<button type="button" onclick="data_save()" id="formBtn" class="form__btn2">Сохранить</button>
+				<!--<p><button id='logoutButton'>Logout</button></p>          <p><a href="/logout">Logout</a></p>-->
+			</form>
+			<button class='Btn_logout' id='logoutButton'>Выйти</button>
+	</article>
+	</div>
+
+	<script src='./js/LogoutButton.js'></script>
+	<script src='./js/save.js'></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Регистрация нового пользователя</title>
+	<link rel='stylesheet' href='./css/AdminUserRegStyle.css'>
+</head>
+
+<body>
+	<button class='Btn_logout' id='logoutButton'>Выйти</button>
+	<h1 class='Header'>Регистрация нового пользователя</h1>
+	<form id="registerUserForm">
+		<div class="input-field">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+		</div>
+		<div class="input-field">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+		</div>
+		<div class="input-field">
+			<label for="firstName">First Name:</label>
+			<input type="text" id="firstName" name="firstName" required>
+		</div>
+		<div class="input-field">
+			<label for="lastName">Last Name:</label>
+			<input type="text" id="lastName" name="lastName" required>
+		</div>
+		<div class="input-field">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+		</div>
+		<button type="submit" id="submitForm">Создать пользователя</button>
+	</form>
+	<script src="./js/AdminBtnRegUser.js"></script>
+	<script src='./js/LogoutButton.js'></script>
+</body>
+
+</html>

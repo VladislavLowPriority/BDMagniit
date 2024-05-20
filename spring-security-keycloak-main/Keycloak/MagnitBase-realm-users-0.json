@@ -1,0 +1,50 @@
+{
+  "realm" : "MagnitBase-realm",
+  "users" : [ {
+    "id" : "37eb22f8-83f0-4790-8fed-dcc2944495fb",
+    "username" : "newuser",
+    "firstName" : "FirstName",
+    "lastName" : "LastName",
+    "email" : "abc@mail.ru",
+    "emailVerified" : false,
+    "createdTimestamp" : 1710002745352,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "d5144825-8be7-4b0c-a143-a823433b0d41",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1710173841401,
+      "secretData" : "{\"value\":\"SfPJSUctq9D708nrCfp5S0oEQjfbW/9Br/cs3Z8fQFPwTZtHD61FYlPnuayjoYaoZ85r3fkO1jYJ9+EoNvUE+A==\",\"salt\":\"A6UwEnqqr+u9AURTnCJ1Ew==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-magnitbase-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "706fefdb-721f-403e-9752-e983defa5950",
+    "username" : "testuser",
+    "firstName" : "FirstName",
+    "lastName" : "LastName",
+    "email" : "kachalov.vladislav01@mail.ru",
+    "emailVerified" : false,
+    "createdTimestamp" : 1709992411849,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "b062eb6a-b776-4c51-9aae-1fd7c3192a52",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1709996182815,
+      "secretData" : "{\"value\":\"Lmq5Jfx0dH5zuQ4py6UUehtpdE9n1MGMfqtoiE3fMF5w66gJFF1Crf/9CLBcBQHx3OBIEOn/p5Fr1C0vOOxubw==\",\"salt\":\"rTrb6DzW0UH5+cTlDdcQQg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-magnitbase-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
