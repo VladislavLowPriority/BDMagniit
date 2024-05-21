@@ -20,7 +20,6 @@ async function loadUserProfile() {
 			return
 		}
 
-		// Теперь, когда у нас есть токен, делаем запрос на получение данных пользователя
 		const profileResponse = await fetch(
 			'http://localhost:8081/api/user/profile',
 			{
